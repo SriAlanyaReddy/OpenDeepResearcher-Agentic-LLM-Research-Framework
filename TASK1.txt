@@ -1,0 +1,22 @@
+Your next assignment is to build a small LLM-based application using any provider of your choice (for example, OpenAI, Anthropic, Google, or Hugging Face).
+The goal is to demonstrate how an LLM can use function calling and real-time web search together to answer user queries intelligently.
+
+Task Description
+The application should perform the following steps:
+Detect the Current Date:
+When a user asks a question, the LLM should first call a custom function (e.g., get_current_date()) that returns the current date.
+The model should then use this date context in its reasoning or response.
+Integrate Tavily Search:
+After obtaining the date, the LLM should generate a search query relevant to the user’s question.
+Use Tavily Search (or any web search API) to fetch recent or relevant information from the web.
+Combine Both Steps in the Final Output:
+The LLM should first respond with the current date.
+Then, it should use the search results to generate a summarized, contextual answer.
+Example:
+User: “What’s the latest news?”
+LLM: “Today is October 14, 2025. Here are the latest headlines…” (fetched from Tavily search).
+Expected Deliverables
+A working Python script or notebook implementing the above logic.
+A short note or README explaining how the LLM, function calling, and web search are connected.
+
+on 21st
